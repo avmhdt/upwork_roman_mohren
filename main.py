@@ -3,8 +3,8 @@ import os
 import numpy as np
 import sys
 from ib_insync import *
-from .config import StrategyConfig, InstrumentBrokerConfig
-from .strategy import Strategy
+from config import StrategyConfig, InstrumentBrokerConfig
+from strategy import Strategy
 
 
 if __name__ == '__main__':
